@@ -15,12 +15,12 @@ export default function App() {
 
   //gets current longitude/latitude coordinates when app loads
   //sets long/lat states
-  useEffect(() => {
-    navigator.geolocation.getCurrentPosition((position) => {
-      setLat(position.coords.latitude);
-      setLong(position.coords.longitude);
-    });
-  }, [lat, long]);
+  // useEffect(() => {
+  //   navigator.geolocation.getCurrentPosition((position) => {
+  //     setLat(position.coords.latitude);
+  //     setLong(position.coords.longitude);
+  //   });
+  // }, [lat, long]);
 
   //automatically fetches current weather with the long/lat states
   //sets state for temp, weatherConditions, city and isLoading

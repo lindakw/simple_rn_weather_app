@@ -2,20 +2,23 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   weatherContainer: {
     flex: 1,
+    alignSelf: "stretch",
   },
   headerContainer: {
     flex: 1,
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "space-around",
+    justifyContent: "center",
   },
   tempText: {
     fontSize: 72,
     color: "#fff",
+    marginLeft: 10,
   },
   cityText: {
     fontSize: 24,
     color: "#fff",
+    textAlign: "center",
   },
   bodyContainer: {
     flex: 2,
@@ -27,10 +30,12 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 60,
     color: "#fff",
+    textAlign: "center",
   },
   subtitle: {
     fontSize: 24,
     color: "#fff",
+    textAlign: "center",
   },
 });
 

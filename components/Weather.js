@@ -21,8 +21,8 @@ const Weather = ({ weather, temperature, city }) => {
           color={"#fff"}
         />
         <Text style={styles.tempText}>{temp}°</Text>
-        <Text style={styles.cityText}>{city}</Text>
       </View>
+      <Text style={styles.cityText}>Current weather in {city}</Text>
       <View style={styles.bodyContainer}>
         <Text style={styles.title}>{weatherConditions[weather].title}</Text>
         <Text style={styles.subtitle}>
